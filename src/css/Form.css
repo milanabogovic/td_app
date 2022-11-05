@@ -1,0 +1,32 @@
+.Form {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.Form input {
+    width: 100%;
+    height: 2rem;
+    padding-left: 1rem;
+
+    background: #f5f5f7;
+
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.Form input:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+hr {
+    width: 25%;
+    margin: 1rem auto;
+
+    border-radius: 1rem;
+    border: 0.2rem #e4e4e4 solid;
+    background: #e4e4e4;
+
+    color: #e4e4e4;
+}

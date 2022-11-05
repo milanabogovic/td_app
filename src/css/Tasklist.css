@@ -1,0 +1,42 @@
+.Tasklist {
+    width: 90%;
+    margin: auto;
+}
+
+.Tasklist>ul {
+    margin: 1.5rem 0;
+    list-style: none;
+}
+
+.Tasklist>ul>li {
+    padding: 0.8rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 0.9rem;
+    font-weight: 300;
+
+    /* Odavdje */
+    /* border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.Tasklist>ul>li>div>.icon, .Tasklist>ul>li>div>.icon__trash {
+    color: #616161;
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+}
+
+.Tasklist>ul>li>div.icon {
+    color: #616161;
+}
+
+.Tasklist>ul>li>div>.icon__trash {
+    color: rgba(158, 14, 14, 0.5);
+}
+
+.complete {
+    color: #50e2a5;
+}
